@@ -37,6 +37,7 @@ def pow(x, k):
     y *= x
   return y
 
+
 precision = float(input('Укажите точность: '))
 x = float(input('Введите x: '))
 
@@ -45,4 +46,6 @@ while abs(equal - last) > precision:
   equal += (pow(x, number * 2) / fact(number * 2)) * (-1) ** number
   number += 1
 print('Сумма ряда =', equal)
+<<<<<<< HEAD
 print('Ха-Ха')
+
