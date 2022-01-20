@@ -37,7 +37,7 @@ def pow(x, k):
     y *= x
   return y
 
-precision = float(input('Введите точность: '))
+precision = int(input('Введите точность: '))
 x = float(input('Введите x: '))
 
 while abs(equal - last) > precision:
