@@ -45,3 +45,4 @@ while abs(equal - last) > precision:
   equal += (pow(x, number * 2) / fact(number * 2)) * (-1) ** number
   number += 1
 print('Сумма ряда =', equal)
+print('Хорошего дня')
